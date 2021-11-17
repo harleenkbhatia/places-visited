@@ -1,0 +1,63 @@
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: pink;
+    color: black;
+}
+
+.container,
+.input-container,
+.place-container,
+.delete {
+    border: 1px solid;
+}
+
+
+.input-container {
+    height: 25vh;
+    text-align: center;
+    padding-top: 26px;
+}
+.info-container {
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.place-container {
+    height: 66.7vh;
+}
+.place-list{
+    padding-left: 0%;
+}
+.delete{
+    padding: 1.2%;
+}
+
+.place-input{
+    text-align: center;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 30%;
+    /* margin-top: 30px;*/
+}
+
+.place-container li {
+    font-size: 1.5rem;
+    /* list-style: none; */
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    margin : 10px auto 0px auto;  /*top right bottom left */
+}
+@media screen and (max-width: 768px){
+    .place-input,
+    .place-container li{
+        width: 70%;
+    }
+}
+
